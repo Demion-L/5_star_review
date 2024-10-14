@@ -25,3 +25,13 @@ body {
     text-wrap: balance;
   }
 }
+
+.card {
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 20px rgba(92, 106, 2, 0.2);
+  background-color: rgba(30, 24, 24, 0.9);
+}
