@@ -53,7 +53,7 @@ export default function Home() {
       const fetchedExperts = await fetch("/api/experts").then((response) =>
         response.json()
       );
-      // setExperts(fetchedExperts);
+      setExperts(fetchedExperts);
       console.log("New experts fetched from DB");
     };
 
